@@ -1,15 +1,15 @@
-# light-store
+# light-storer
 
 Light store based on React, inspired by Zustand
 
 # Installation
 
 ```bash
-yarn add light-store --save-dev
+yarn add light-storer --save-dev
 # or
-npm install light-store --save-dev
+npm install light-storer --save-dev
 # or
-pnpm install light-store --save-dev
+pnpm install light-storer --save-dev
 ```
 
 # Features
@@ -27,7 +27,7 @@ pnpm install light-store --save-dev
 `store.ts`
 
 ```js
-import { createStore } from 'light-store'
+import { createStore } from 'light-storer'
 
 const store = createStore<{
   count: number
@@ -47,7 +47,7 @@ export default store
 
 ```jsx
 import React, { FC } from 'react'
-import { useStore } from 'light-store'
+import { useStore } from 'light-storer'
 import store from './store'
 const Foo: FC = () => {
   const { count, setCount } = useStore(store)
@@ -65,7 +65,7 @@ export default Foo
 
 ```jsx
 import React, { FC } from 'react'
-import { useStore } from 'light-store'
+import { useStore } from 'light-storer'
 import store from './store'
 
 const Bar: FC = () => {
