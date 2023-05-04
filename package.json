@@ -1,6 +1,6 @@
 {
   "name": "light-store",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Light store based on React, inspired by Zustand",
   "author": "haijie-x",
   "keywords": [],
