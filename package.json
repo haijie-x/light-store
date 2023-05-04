@@ -1,5 +1,5 @@
 {
-  "name": "light-store",
+  "name": "light-storer",
   "version": "0.0.1",
   "description": "Light store based on React, inspired by Zustand",
   "author": "haijie-x",
@@ -24,7 +24,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "vite build",
-    "prepublishOnly": "pnpm run lint:fix && pnpm run build",
+    "prepublishOnly": "pnpm run lint:fix",
     "release": "bumpp && npm publish",
     "test": "vitest"
   },
